@@ -1,0 +1,14 @@
+---
+---
+
+
+.page-link.active-link {
+    pointer-events: none;
+    user-select: none;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+.page-link {
+    padding: 5px;
+}

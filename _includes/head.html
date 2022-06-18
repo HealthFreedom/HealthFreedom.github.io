@@ -1,0 +1,19 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href ="{{site.baseurl}}/assets/icons/{{site.favicon}}">
+    <link rel="stylesheet" href="{{ "/assets/css/navbar.css" | relative_url }}" id="navbar-style-link">
+    <link rel="stylesheet" href="{{ "/assets/css/selected.css" | relative_url }}" id="navbar-style-link">
+    <link rel="canonical" href="{{ site.url }}{{site.baseurl}}{{ page.url }}" />
+    {%- if jekyll.environment == 'production' -%}
+      {%- if site.google_analytics -%}
+        {%- include google-analytics.html -%}
+      {%- endif -%}
+      {%- if site.hitstep_analytics -%}
+        {%- include hitstep-analytics.html -%}
+      {%- endif -%}
+    {%- endif -%}
+    {% include external-scripts.html %}
+  </head>
+  

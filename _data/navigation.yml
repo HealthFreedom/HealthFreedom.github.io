@@ -1,0 +1,8 @@
+- name: Home
+  link: index
+- name: About
+  link: about
+- name: Posts
+  link: blog
+- name: Tags
+  link: tagindex
